@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Daily Bruin Graphics</title>
+    </head>
+    <body>
+        <h1> Index of Sites </h1>
+        <ul>
+        {% for site in sites %}
+        <li><a href="{{ site.path }}">{{site.title}}</a><br
+               /><p>{{site.description}}
+               (Image: {{site.image}})</p></li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
