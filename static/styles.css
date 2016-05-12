@@ -8,19 +8,23 @@ body {
 
 #menu{
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
     text-align: center;
     background-color: rgb(236, 242, 245);
+
 }
 
 #title{
     margin-top: 40px;
     text-align: center;
+    margin-bottom: 60px;
 
 }
 
 #title h1{
     text-decoration: underline;
+    padding-bottom: 20px;
 }
 #title h4{
     padding-left: 200px;
