@@ -5,6 +5,28 @@
 body {
     background: rgb(123, 158, 158);
 }
+
+#menu{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgb(0,0,255);
+}
+
+#title{
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#title h1{
+    text-decoration: underline;
+}
+#title h4{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 #hexGrid {
     overflow: hidden;
     width: 90%;
