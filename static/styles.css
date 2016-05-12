@@ -7,6 +7,8 @@ body {
 }
 
 #menu{
+    font-family: 'Lora', serif;
+    font-weight: 100;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: 40px;
@@ -16,6 +18,7 @@ body {
 }
 
 #title{
+    font-family: sans-serif;
     margin-top: 40px;
     text-align: center;
     margin-bottom: 60px;
@@ -27,6 +30,7 @@ body {
     padding-bottom: 20px;
 }
 #title h4{
+    font-family: 'Tinos', serif;
     padding-left: 200px;
     padding-right: 200px;
 }
