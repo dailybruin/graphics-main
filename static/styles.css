@@ -37,9 +37,9 @@ body {
 
 #hexGrid {
     overflow: hidden;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-    padding:0.866% 0;
+    padding:0% 0;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
