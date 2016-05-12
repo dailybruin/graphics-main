@@ -3,8 +3,30 @@
     padding: 0;
 }
 body {
-    background: rgb(123, 158, 158);
+    background: #FFFFFF;
 }
+
+#menu{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgb(0,0,255);
+}
+
+#title{
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#title h1{
+    text-decoration: underline;
+}
+#title h4{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 #hexGrid {
     overflow: hidden;
     width: 80%;
@@ -60,7 +82,7 @@ body {
     left:-1%; /* prevent line on the right where background doesn't cover image */
     padding: 5%;
     box-sizing:border-box;
-    background-color: rgba(0, 128, 128, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     font-weight: 300;
     -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
             transition:          transform .2s ease-out, opacity .3s ease-out;
