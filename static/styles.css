@@ -10,7 +10,7 @@ body {
     padding-top: 40px;
     padding-bottom: 30px;
     text-align: center;
-    background-color: rgb(0,0,255);
+    background-color: rgb(236, 242, 245);
 }
 
 #title{
@@ -66,6 +66,12 @@ body {
     -webkit-transform: skewY(-30deg) rotate(60deg);
         -ms-transform: skewY(-30deg) rotate(60deg);
             transform: skewY(-30deg) rotate(60deg);
+}
+
+#db-logo{
+	display: center;
+	width: 10%;
+	height: 100%;
 }
 
 /*** HEX CONTENT **********************************************************************/
