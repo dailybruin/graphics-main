@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background: rgb(123, 158, 158);
+    background: #FFFFFF;
 }
 
 #menu{
@@ -82,7 +82,7 @@ body {
     left:-1%; /* prevent line on the right where background doesn't cover image */
     padding: 5%;
     box-sizing:border-box;
-    background-color: rgba(0, 128, 128, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     font-weight: 300;
     -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
             transition:          transform .2s ease-out, opacity .3s ease-out;
