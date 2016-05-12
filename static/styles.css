@@ -6,20 +6,30 @@ body {
     background: #FFFFFF;
 }
 
-#menu{
+#menu {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: 40px;
     text-align: center;
     background-color: rgb(236, 242, 245);
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-opt {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    position: relative;
 }
 
 #title{
     margin-top: 40px;
     text-align: center;
     margin-bottom: 60px;
-
 }
 
 #title h1{
