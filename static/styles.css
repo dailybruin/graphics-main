@@ -72,7 +72,7 @@ body {
             transform: skewY(-30deg) rotate(60deg);
 }
 
-#db-logo{
+.db-logo{
 	display: center;
 	width: 10%;
 	height: 100%;
@@ -115,6 +115,7 @@ body {
     text-align: center;
     border-bottom: 1px solid #fff;
 }
+
 .hex p {
     top: 50%;
     padding-bottom:50%;
@@ -123,6 +124,12 @@ body {
             transform:translateY(100%) translatez(-1px);
 }
 
+#db-logo{
+    -webkit-transform:translateY(100%) translatez(-1px);
+        -ms-transform:translateY(100%) translatez(-1px);
+            transform:translateY(100%) translatez(-1px);
+
+}
 
 /*** HOVER EFFECT  **********************************************************************/
 .hexIn:hover h1, .hexIn:focus h1,
