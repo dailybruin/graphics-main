@@ -1,16 +1,45 @@
+<!doctype html>
 <html>
-    <head>
-        <title>Daily Bruin Graphics</title>
-        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}"/>
-    </head>
-    <body>
-        <h1> Index of Sites </h1>
-        <ul>
+
+<head>
+    <meta charset="utf-8">
+    <title>Daily Bruin Graphics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <div id="menu">
+        <div class="nav-opt">
+            <h4><a href="#">Home&emsp;</a></h4></div>
+        <div class="nav-opt">
+            <h4><a href="#">The Quad&emsp;&emsp;</a></h4></div>
+        <div class="nav-opt">
+            <img src="http://dailybruin.com/images/2016/05/Daily-Bruin-Logo.png" href="#"></div>
+        <div class="nav-opt">
+            <h4><a href="#">&emsp;&emsp;Spectrum&emsp;</a></h4></div>
+        <div class="nav-opt">
+            <h4><a href="#">The Stack</a></h4></div>
+    </div>
+
+    <div id="title">
+        <h1>Title of Page</h1>
+        <h4>Explanation here hehehe hello online u r beautiful i lov u! Explanation here hehehe hello online u r beautiful i lov u! Explanation here hehehe hello online u r beautiful i lov u! Explanation here hehehe hello online u r</h4>
+    </div>
+
+    <ul id="hexGrid">
         {% for site in sites %}
-        <li><a href="{{ site.path }}">{{site.title}}</a><br
-               /><p>{{site.description}}
-               (Image: {{site.image}})</p></li>
+        <li class="hex">
+            <a class="hexIn" href="{{ site.directory }}">
+                <img src="{{ site.image }}" alt="{{ site.title }}" />
+                <h1>{{ site.title  }}</h1>
+                <p>{{ site.description }}</p>
+            </a>
+        </li>
         {% endfor %}
-        </ul>
-    </body>
+    </ul>
+</body>
+
 </html>
