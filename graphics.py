@@ -10,7 +10,8 @@ cache = SimpleCache()
 
 # expect GRAPHICS_DIR, an environment variable, to be set with
 # the path to the project directory on the graphics server
-GRAPHICS_DIR = os.environ.get('GRAPHICS_DIR', '.')
+with open('./config.json') as f:
+    GRAPHICS_DIR = json.load(f)['GRAPHICS_DIR']
 
 
 # generate the list of sites, assuming each subfolder has a
@@ -35,7 +36,8 @@ def generate_sites():
                         'path': directory,
                         'title': data['title'],
                         'description': data['description'],
-                        'image': directory + data['image'],
+                        'image': (directory + data['image'])
+                        if '//' not in data['image'] else data['image'],
                     })
         except Exception as ex:
             app.logger.error(ex)
